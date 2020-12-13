@@ -1,0 +1,9 @@
+services:
+  - name: rngd
+    image: crunpkgs/rngd:latest
+#    capabilities:
+#      - CAP_SYS_ADMIN
+#    oomScoreAdj: -800
+#    readonly: true
+#    binds:
+#     - /lib/modules:/lib/modules

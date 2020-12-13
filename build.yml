@@ -1,0 +1,13 @@
+image: rngd
+org: crunpkgs
+
+network: true
+disable-content-trust: true
+
+config:
+  binds:
+    - /lib/modules:/lib/modules
+  capabilities:
+    - CAP_SYS_ADMIN
+  oomScoreAdj: -800
+  readonly: true
