@@ -1,6 +1,6 @@
 services:
   - name: rngd
-    image: crunpkgs/rngd:latest
+    image: crunospkgs/rngd:latest
 #    capabilities:
 #      - CAP_SYS_ADMIN
 #    oomScoreAdj: -800
