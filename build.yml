@@ -1,5 +1,5 @@
 image: rngd
-org: crunpkgs
+org: crunospkgs
 
 network: true
 disable-content-trust: true
